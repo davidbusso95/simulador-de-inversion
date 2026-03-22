@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://davidbusso95.github.io/inversor-app",
+  "homepage": "https://davidbusso95.github.io/simulador-de-inversion",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
