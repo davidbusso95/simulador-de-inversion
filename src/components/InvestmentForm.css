@@ -1,0 +1,26 @@
+.investment-form-card .card-content {
+  padding: 1rem;
+}
+
+.investment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.calculate-btn {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .investment-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 1.5rem;
+  }
+
+  .calculate-btn {
+    grid-column: span 2;
+  }
+}
